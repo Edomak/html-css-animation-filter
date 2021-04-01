@@ -89,7 +89,7 @@
     width: 100px;
     height: 100px;
     background: red;
-    transition: all 1s linear;
+    transition: all 1.5s linear;
 }
 
 .ex-2-square:active {
@@ -148,7 +148,7 @@
 }
 
 .ex-6-img:hover {
-    filter: grayscale(1);
+    filter: grayscale(1) sepia(0.5)
 }
 
 /* Esercizio 7 */
@@ -183,7 +183,7 @@
 
 .ex-9-img:hover {
     border-radius: 30px;
-    filter: sepia(0.8);
+    filter: sepia(0.8) grayscale(0.5);
     transform: scale(1.4);
 }
 
@@ -297,8 +297,4 @@
 }
 
 /* Esercizio 13 */
-
-
-
-
 
