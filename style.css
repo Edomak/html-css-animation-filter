@@ -112,6 +112,86 @@
 
 /* Esercizio 4 */
 
+.ex-4-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: all 1s ease-in-out;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+/* Esercizio 5 */
+
+.ex-5-square {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background: red;
+    transition: all 1s ease-in-out;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+/* Esercizio 6 */
+
+.ex-6-img {
+    width: 500px;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* Esercizio 7 */
+
+.ex-7-img {
+    width: 500px;
+    transition: all 1.5s ease-in-out;
+}
+
+.ex-7-img:hover {
+    filter: sepia(0.6);
+}
+
+/* Esercizio 8 */
+
+.ex-8-img {
+    width: 500px;
+    transition: all 1s ease-in-out;
+}
+
+.ex-8-img:hover {
+    border-radius: 30px;
+    filter: sepia(0.5)
+}
+
+/* Esercizio 9 */
+
+.ex-9-img {
+    width: 500px;
+    transition: all 2s ease-in-out;
+}
+
+.ex-9-img:hover {
+    border-radius: 30px;
+    filter: sepia(0.8);
+    transform: scale(1.4);
+}
+
+/* Esercizio 10 */
+
+
+
+
 
 
 
