@@ -159,7 +159,7 @@
 }
 
 .ex-7-img:hover {
-    filter: sepia(0.6);
+    filter: sepia(0.6) grayscale(0.6)
 }
 
 /* Esercizio 8 */
@@ -171,7 +171,7 @@
 
 .ex-8-img:hover {
     border-radius: 30px;
-    filter: sepia(0.5)
+    filter: sepia(0.6)
 }
 
 /* Esercizio 9 */
@@ -243,6 +243,60 @@
 }
 
 /* Esercizio 12 */
+
+.col-xs-12:hover .ex-12-top-white {
+    animation-name: move-top;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes move-top {
+    from {
+        left: 10%;
+    }
+    25% {
+        left: 25%; 
+    }
+    50% {
+        left: 40%; 
+    }
+    75% {
+        left: 55%; 
+    }
+    to {
+        left: 70%; 
+    }
+}
+
+.col-xs-12:hover .ex-12-bottom-white {
+    animation-name: move-bottom;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes move-bottom {
+    from {
+        right: 20%;
+    }
+    25% {
+        right: 35%; 
+    }
+    50% {
+        right: 45%; 
+    }
+    75% {
+        right: 55%; 
+    }
+    to {
+        right: 70%; 
+    }
+}
+
+/* Esercizio 13 */
 
 
 
