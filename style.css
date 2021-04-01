@@ -189,7 +189,60 @@
 
 /* Esercizio 10 */
 
+.ex-10-icon {
+    font-size: 60px;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
 
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-90deg);
+    }
+    50% {
+        transform: rotate(-180deg);
+    }
+    75% {
+       transform: rotate(-270deg);
+    }
+    to {
+       transform: rotate(-360deg);
+    }
+}
+
+/* Esercizio 11 */
+
+.ex-11-icon:hover {
+        font-size: 60px;
+        animation-name: respin;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+    }
+    
+@keyframes respin {
+    from {
+         transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(320deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+/* Esercizio 12 */
 
 
 
